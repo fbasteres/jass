@@ -15,7 +15,7 @@ use App\Http\Controllers\Componentes\TipoServicioController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.dashboard');
 });
 
 Route::get('/dashboard', function () {
